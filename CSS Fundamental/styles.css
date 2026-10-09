@@ -1,0 +1,49 @@
+body {
+    height: 1500px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.static {
+    background: lightblue;
+    position: static;
+    }
+
+
+.relative {
+    background: lightcoral;
+    position: relative;
+    top: 20px;
+    left: 30px;
+}
+
+
+.parent {
+    background: #eee;
+    width: 300px;
+    height: 200px;
+    position: relative;
+    margin: 30px;
+}
+
+
+.absolute {
+    background: lightgreen;
+    position: absolute;
+    top: 20px;
+    right: 30px;
+}
+
+.fixed {
+    background: gold;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+.sticky {
+    background: violet;
+    position: sticky;
+    top: 0;
+}
